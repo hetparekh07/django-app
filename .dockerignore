@@ -1,0 +1,4 @@
+data/
+mysql/
+*.db
+.git
