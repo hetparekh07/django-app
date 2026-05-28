@@ -51,11 +51,12 @@ const NotePage = () => {
     } else if (id !== 'new') {
       updateNote()
     } else if (id ==='new' && note !== null) {
-      createNote()
+      createNote() 
     }
     navigate('/')
   }
 
+  
   return (
     <div className='note'>
       <div className="note-header">
